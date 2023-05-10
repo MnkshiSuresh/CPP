@@ -42,3 +42,25 @@ int main(){
     return 0;
 }
 
+
+
+#include <iostream>
+using namespace std;
+int main(){
+    int n,j=1;
+    cout<<"enter the limit:";
+    cin>>n;
+    for(int i=1;i<=n;i++){
+       int count=1;
+       while(count<=i){
+           
+           cout<<j<<" ";
+           j++;
+           count++;
+       }
+     
+       cout<<"\n";
+        
+    }
+    return 0;
+}
